@@ -1,3 +1,5 @@
+import Chat from './components/Chat'
+
 function App() {
   return (
     <div className="min-h-screen flex flex-col text-center bg-gray-100 text-gray-800">
@@ -9,6 +11,8 @@ function App() {
         <p>Welcome to your installable PWA!</p>
         <p>Built for both mobile and desktop.</p>
       </main>
+
+      <Chat />
 
       <footer className="bg-gray-200 text-sm py-2">
         &copy; 2025 You & Your Girlfriend ❤️
